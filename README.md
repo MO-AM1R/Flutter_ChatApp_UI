@@ -1,6 +1,6 @@
-# ITI-Project
+# Flutter ChatApp UI
 
-This public repository will cover my project in ITI Course.
+This public repository will cover my chat app UI project in ITI flutter Course.
 
 # My Project is Chat App UI
 
