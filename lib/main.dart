@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
       darkTheme: darkTheme(),
       home: const LottieIcon(),
       getPages: [
-        GetPage(name: '/home', page: () => const HomeScreen()),
         GetPage(name: '/chat', page: () => const ChatApp()),
       ],
     );
