@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
 
     List<User> users = User.users;
     List<Chat> chats = Chat.chats;
-    
+
     return Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -45,7 +45,3 @@ class HomeScreen extends StatelessWidget {
         ));
   }
 }
-
-
-
-
