@@ -43,12 +43,11 @@ class _LottieIconState extends State<LottieIcon>
     return (isFinished
         ? const HomeScreen()
         : Container(
-        color: Colors.white,
-        child: Lottie.asset('assets/Loading.json', controller: _controller,
-            onLoaded: ((con) {
+            color: Colors.white,
+            child: Lottie.asset('assets/Loading.json', controller: _controller,
+                onLoaded: ((con) {
               _controller.forward();
             })),
-      )
-    );
+          ));
   }
 }
